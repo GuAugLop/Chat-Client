@@ -16,6 +16,7 @@ const Chat = () => {
     myId = window.localStorage.getItem("myid");
     if (!myId) {
       window.localStorage.setItem("myid", myUuid);
+      myId = window.localStorage.getItem("myid");
     } else {
       myId = window.localStorage.getItem("myid");
     }
