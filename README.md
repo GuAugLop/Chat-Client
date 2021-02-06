@@ -1,6 +1,6 @@
-  <img align="left" src="https://raw.githubusercontent.com/Ted2370/Chat-Client/main/public/logo.png" height="200" /> <h1>React-Chat</h1>
+<img align="left" src="https://raw.githubusercontent.com/Ted2370/Chat-Client/main/public/logo.png" height="150" /> <h1>React-Chat</h1>
 
-Esse é um projeto feito em React com o intuito de simular um Chat Real-Time.
+Esse é um projeto com o intuito de simular um Chat Real-Time. Criado com React + Socket.io-Client para front-end, backend desenvolvido em NodeJS + Express + Socket.io. O armazenamento é persistente, mantendo os dados salvos no lado do client, mas com atualizações futuras para garantir a persistência das mensagens do lado do servidor, garantindo a recuperação de mensagens mesmo o usuário estando desconectado.
 
 <br><br>
 
