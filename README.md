@@ -3,8 +3,11 @@
 Esse é um projeto feito em React com o intuito de simular um Chat Real-Time.
 
 ## Screenshots
-<img src="https://raw.githubusercontent.com/Ted2370/Chat-Client/main/screenshots/screenshot01.png" height="350" style="display: inline" />
-<img src="https://raw.githubusercontent.com/Ted2370/Chat-Client/main/screenshots/screenshot02.png" height="350" style="display: inline" />
+<div style="display: flex; justify-content: space-around;">
+<img src="https://raw.githubusercontent.com/Ted2370/Chat-Client/main/screenshots/screenshot01.png" height="450" />
+<img src="https://raw.githubusercontent.com/Ted2370/Chat-Client/main/screenshots/screenshot02.png" height="450"  />  
+</div>
+
 
 ## Comandos para o projeto
 
