@@ -8,6 +8,15 @@ Esse é um projeto feito em React com o intuito de simular um Chat Real-Time.
 <img src="https://raw.githubusercontent.com/Ted2370/Chat-Client/main/screenshots/screenshot02.png" height="450"  />  
 </div>
 
+## Aplicação no GH-Pages
+--
+
+## Funcionalidades
+<ul>
+<li>  Envio de mensagens em tempo real para outros usuários conectados </li>
+<li>  Persistência das mensagens no navegador depois de recarregar a página </li>
+<li>  <strong>Em Breve</strong> - Distinção de multiplos usuários conectados por nome ou cores </li>
+</ul>
 
 ## Comandos para o projeto
 
