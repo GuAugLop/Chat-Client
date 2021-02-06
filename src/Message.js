@@ -1,11 +1,16 @@
 import React from "react";
 
-const Message = () => {
+const Message = ({ message, id, hour, minute, myId, index }) => {
   return (
-    <div className="message message_other">
+    <div
+      key={index}
+      className={`message ${id === myId ? "message_self" : "message_other"}`}
+    >
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        <span>23:01</span>
+        {message}
+        <span>
+          {hour}:{minute}
+        </span>
       </p>
     </div>
   );

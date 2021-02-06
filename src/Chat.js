@@ -1,6 +1,7 @@
 import React from "react";
 import io from "socket.io-client";
 import uuid from "uuid/v4";
+import Message from "./Message";
 const myUuid = uuid();
 
 //This is my public API for test.
@@ -68,19 +69,14 @@ const Chat = () => {
       <div className="messages">
         <div className="bg" ref={messagesBox}>
           {messages.map(({ message, id, hour, minute }, index) => (
-            <div
-              key={index}
-              className={`message ${
-                id === myId ? "message_self" : "message_other"
-              }`}
-            >
-              <p>
-                {message}
-                <span>
-                  {hour}:{minute}
-                </span>
-              </p>
-            </div>
+            <Message
+              message={message}
+              id={id}
+              hour={hour}
+              minute={minute}
+              index={index}
+              myId={myId}
+            />
           ))}
         </div>
       </div>
