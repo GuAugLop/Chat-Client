@@ -9,6 +9,7 @@ Esse é um projeto feito em React com o intuito de simular um Chat Real-Time.
 </div>
 
 ## Aplicação no GH-Pages
+<strong>Abra em navegadores diferentes, ou chame um amigo para testar com você!</strong>
 --
 
 ## Funcionalidades
