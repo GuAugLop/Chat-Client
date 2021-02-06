@@ -1,9 +1,8 @@
-<div style="display:flex; align-items: center; justify-content: center">
-  <img src="https://raw.githubusercontent.com/Ted2370/Chat-Client/main/public/logo.png" height="200" /> <h1>React-Chat</h1>
-</div>
-
+  <img align="left" src="https://raw.githubusercontent.com/Ted2370/Chat-Client/main/public/logo.png" height="200" /> <h1>React-Chat</h1>
 
 Esse é um projeto feito em React com o intuito de simular um Chat Real-Time.
+
+<br><br>
 
 ## Screenshots
 
