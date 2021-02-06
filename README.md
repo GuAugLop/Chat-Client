@@ -2,8 +2,9 @@
 
 Esse é um projeto feito em React com o intuito de simular um Chat Real-Time.
 
-##Screenshots
-
+## Screenshots
+<img src="https://raw.githubusercontent.com/Ted2370/Chat-Client/main/screenshots/screenshot01.png" height="400" />
+<img src="https://raw.githubusercontent.com/Ted2370/Chat-Client/main/screenshots/screenshot02.png" height="400" />
 
 ## Comandos para o projeto
 
