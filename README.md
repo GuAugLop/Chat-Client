@@ -4,13 +4,13 @@ Esse é um projeto feito em React com o intuito de simular um Chat Real-Time.
 
 ## Screenshots
 <div style="display: flex; justify-content: space-around;">
-<img src="https://raw.githubusercontent.com/Ted2370/Chat-Client/main/screenshots/screenshot01.png" height="450" />
-<img src="https://raw.githubusercontent.com/Ted2370/Chat-Client/main/screenshots/screenshot02.png" height="450"  />  
+<img src="https://raw.githubusercontent.com/Ted2370/Chat-Client/main/screenshots/screenshot01.png" height="410" />
+<img src="https://raw.githubusercontent.com/Ted2370/Chat-Client/main/screenshots/screenshot02.png" height="410"  />  
 </div>
 
 ## Aplicação no GH-Pages
-<strong>Abra em navegadores diferentes, ou chame um amigo para testar com você!</strong>
---
+<a href="https://ted2370.github.io/Chat-Client/">🔗 React-Chat</a> - <strong>Abra em navegadores diferentes, ou chame um amigo para testar com você!</strong>
+
 
 ## Funcionalidades
 <ul>
