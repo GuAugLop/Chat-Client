@@ -2,7 +2,9 @@ import React from "react";
 import io from "socket.io-client";
 import uuid from "uuid/v4";
 const myUuid = uuid();
-const socket = io("https://api-chat-ted2370.herokuapp.com/");
+
+//This is my public API for test.
+const socket = io("https://api-chat-ted2370.herokuapp.com/"); //Change to your URL Chat-Server.
 let myId;
 
 const Chat = () => {
