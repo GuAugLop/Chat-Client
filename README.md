@@ -33,6 +33,10 @@ Com esse comando, você irá instalar todas as dependências do projeto.
 
 Com esse comando, você irá iniciar um servidor local para realizar testes do projeto
 
+### Chat-Server
+Aplicação node para você rodar seu servidor de recepção de mensagens na sua própria máquina
+<a href="https://github.com/Ted2370/Chat-Server">Chat-Server</a> - <strong>Abra em navegadores diferentes, ou chame um amigo para testar com você!</strong>
+
 ### `npm build`
 
 Para Buildar o projeto à uma versão de produção - <strong>Sem necessidade de utilização</strong>
