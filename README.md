@@ -21,6 +21,10 @@ Esse é um projeto feito em React com o intuito de simular um Chat Real-Time.
 <li>  <strong>Em Breve</strong> - Distinção de multiplos usuários conectados por nome ou cores </li>
 </ul>
 
+## Chat-Server
+Aplicação node para você rodar seu servidor de recepção de mensagens na sua própria máquina <br>
+<a href="https://github.com/Ted2370/Chat-Server">Chat-Server</a>
+
 ## Comandos para o projeto
 
 Dentro do Diretório do projeto, rode os seguintes comandos:
