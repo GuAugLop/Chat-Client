@@ -1,18 +1,19 @@
 import React from "react";
 import io from "socket.io-client";
 import uuid from "uuid/v4";
+import Input from "./Input";
 import Message from "./Message";
 const myUuid = uuid();
+const API_DEV = "localhost:8080/";
+const API_PROD = "https://api-chat-ted2370.herokuapp.com/"; //This is my public API for test.
 
-//This is my public API for test.
-const socket = io("https://api-chat-ted2370.herokuapp.com/"); //Change to your URL Chat-Server.
+const socket = io(API_DEV); //Change to your URL Chat-Server.
 let myId;
 
 const Chat = () => {
   const [message, setMessage] = React.useState("");
   const [messages, setMessages] = React.useState([]);
 
-  const inputRef = React.useRef();
   const messagesBox = React.useRef();
 
   React.useEffect(() => {
@@ -33,14 +34,6 @@ const Chat = () => {
   }, []);
 
   React.useEffect(() => {
-    setTimeout(() => {
-      messagesBox.current.scrollTo(0, messagesBox.current.scrollHeight);
-    });
-  }, []);
-
-  React.useEffect(() => {
-    inputRef.current.focus();
-
     socket.on("chat message", (message) => {
       let newMessage = [...messages, message];
       setMessages(newMessage);
@@ -69,25 +62,24 @@ const Chat = () => {
       <div className="messages">
         <div className="bg" ref={messagesBox}>
           {messages.map(({ message, id, hour, minute }, index) => (
-            <Message
-              message={message}
-              id={id}
-              hour={hour}
-              minute={minute}
-              index={index}
-              myId={myId}
-            />
+            <div key={index}>
+              <Message
+                message={message}
+                id={id}
+                hour={hour}
+                minute={minute}
+                myId={myId}
+              />
+            </div>
           ))}
         </div>
       </div>
 
       <form onSubmit={handleSubmit}>
-        <input
-          type="text"
+        <Input
           placeholder="Digite uma mensagem"
           value={message}
-          onChange={({ target }) => setMessage(target.value)}
-          ref={inputRef}
+          setValue={setMessage}
         />
       </form>
     </section>
