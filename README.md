@@ -13,7 +13,7 @@ Esse é um projeto com o intuito de simular um Chat Real-Time. Criado com React 
 
 ## Aplicação no GH-Pages
 
-<a href="https://ted2370.github.io/Chat-Client/">React-Chat</a> - <strong>Abra em navegadores diferentes, ou chame um amigo para testar com você!</strong>
+<a href="https://guauglop.github.io/Chat-Client/">React-Chat</a> - <strong>Abra em navegadores diferentes, ou chame um amigo para testar com você!</strong>
 
 ## Funcionalidades
 
